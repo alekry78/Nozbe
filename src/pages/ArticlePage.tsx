@@ -43,7 +43,7 @@ const ArticlePage = () => {
 
     return (
         <main className="flex flex-col items-center justify-center h-screen">
-            <div className="flex flex-col items-start justify-start w-full h-full max-w-7xl mx-auto py-4 gap-4">
+            <div className="flex flex-col items-start justify-start w-full h-full max-w-7xl mx-auto p-4 gap-4">
                 <button onClick={() => window.history.back()} className="text-blue-500 cursor-pointer">Back</button>
                 <h1 className="text-2xl font-bold">{article?.title}</h1>
                 {article?.enclosure && <img src={article?.enclosure.url} alt={article?.title} className="max-w-full h-auto" />}

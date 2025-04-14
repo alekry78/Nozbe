@@ -21,7 +21,7 @@ const Home = () => {
     }
     return (
         <main className="flex flex-col items-center justify-center h-screen">
-            <div className="flex flex-col items-start justify-start w-full h-full max-w-7xl mx-auto py-4 gap-4">
+            <div className="flex flex-col items-start justify-start w-full h-full max-w-7xl mx-auto p-4 gap-4">
                 <div className="flex flex-row items-center justify-between w-full">
                     <h1 className="text-4xl font-bold">
                         RSS Feed Reader
